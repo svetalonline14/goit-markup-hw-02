@@ -89,6 +89,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--title-text-color-navy-blue);
 }
 
 .header-link:hover,
@@ -103,6 +104,7 @@ body {
 .header-address {
     text-decoration: none;
     font-style: normal;
+    
 }
 
 .header-address-list {
@@ -110,16 +112,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+color: var(--primary-text-color-slate);
 }
 
-/* .address-list .link {
-    color: var(--primary-text-color);
-}
 
-.address-list .link:hover,
-.address-list .link:focus {
-    color: var(--active-color);
-} */
+
+.header-email:hover,
+.header-email:focus {
+color: var(--active-color-ocean)
+} 
+
+.header-phone:hover,
+.header-phone:focus {
+color: var(--active-color-ocean);
+}
 
 .header-email {}
 
