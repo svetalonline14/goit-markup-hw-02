@@ -21,7 +21,7 @@ body {
 }
 
  .list {
-     list-style: none;
+    list-style: none; 
  }
 
  .link {
@@ -217,10 +217,18 @@ background: var(--actent-color-iris);
 
 /** -------------------PORTFOLIO------------------- */
 
-.filter-btn {
+
+.filter-list-btn {
+    background-color: var(--color-cloud);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--actent-color-iris);
-}
+ }
+
+ .filter-list-btn:hover,
+ .filter-list-btn:focus {
+    color: var(--title-hero-color-white);
+    background-color: var(--active-color-ocean);
+ }
