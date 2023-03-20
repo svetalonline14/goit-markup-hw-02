@@ -37,6 +37,7 @@ body {
   .section-title {
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--title-text-color-navy-blue);
@@ -61,21 +62,23 @@ body {
 .header-navigation {}
 
 .header-logo{
-font-family: 'Raleway', sans-serif;
+
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-text-color-navy-blue);
+    color: var(--actent-color-iris);
+
 }
 .header-logo:focus,
-.header-logo:hover,
-.header-logo:active {
+.header-logo:hover
+{
     color: var(--active-color-ocean);
  }
+ /* .header-logo:active */
 .color-logo  {
-    color: var(--actent-color-iris);
+    color: var(--title-text-color-navy-blue);
 }
 .header-list {}
 .header-link {
@@ -132,6 +135,7 @@ line-height: 1.5;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
    color: var(--title-hero-color-white);
  }
     
@@ -146,11 +150,17 @@ line-height: 1.5;
     display: flex;
 background: var(--actent-color-iris);
  }
+ .hero-button:hover,
+ .hero-button:focus {
+     color: var(--active-color-ocean);
+ }
  
  /** -------------------FEATURES------------------- */
 
 .features {}
-.features-title.title {}
+.features-title {
+}
+
 .features-list {}
 .features-item {}
 .features-item-title {}
@@ -160,9 +170,9 @@ background: var(--actent-color-iris);
 
 
 /** -------------------OUR TEAM------------------- */
-.team {
+/* .team {
     background-color: var(--color-cloud);
-}
+} */
 
 /** -------------------FOOTER------------------- */
 .footer {
@@ -170,16 +180,18 @@ background: var(--actent-color-iris);
 }
 
 .footer-logo {
-font-family: 'Raleway', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-cloud);
+    color: var(--actent-color-iris)
 }
 
+.color-logo-footer {
+    color: var(--color-cloud)
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
