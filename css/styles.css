@@ -160,7 +160,9 @@ background: var(--actent-color-iris);
  /** -------------------FEATURES------------------- */
 
 .features {}
-.features-title {}
+.features-title {
+    letter-spacing: 0.02em;
+}
 
 .features-list {}
 .features-item {}
@@ -171,10 +173,15 @@ background: var(--actent-color-iris);
 
 
 /** -------------------OUR TEAM------------------- */
-/* .team {
+.team {
     background-color: var(--color-cloud);
 } */
-
+.team-title {
+    letter-spacing: 0.02em;
+    }        
+.team-item {
+    background-color: var(--primary-bg-color-white);
+}                               
 /** -------------------FOOTER------------------- */
 .footer {
     background-color: var(--dark-bg-color);
