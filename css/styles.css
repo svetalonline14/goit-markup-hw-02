@@ -53,6 +53,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--title-text-color-navy-blue);
   }
 
@@ -154,7 +155,7 @@ background: var(--actent-color-iris);
  }
  .hero-button:hover,
  .hero-button:focus {
-     color: var(--active-color-ocean);
+    background-color: var(--active-color-ocean);
  }
  
  /** -------------------FEATURES------------------- */
@@ -180,8 +181,10 @@ background: var(--actent-color-iris);
     letter-spacing: 0.02em;
     }        
 .team-item {
-    background-color: var(--primary-bg-color-white);
-}                               
+    background-color: var(--primary-bg-color-white);}
+.team-item-title {
+    letter-spacing: 0.02em;
+}                              
 /** -------------------FOOTER------------------- */
 .footer {
     background-color: var(--dark-bg-color);
