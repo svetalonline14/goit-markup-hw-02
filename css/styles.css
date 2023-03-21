@@ -103,10 +103,10 @@ body {
 .header-address {
     text-decoration: none;
     font-style: normal;
-    
+    color: var(--primary-text-color-slate);
 }
 
-.header-address-list {
+.header-address-link {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -116,19 +116,11 @@ color: var(--primary-text-color-slate);
 
 
 
-.header-email:hover,
-.header-email:focus {
+.header-address-link:hover,
+.header-address-link:focus {
 color: var(--active-color-ocean)
 } 
 
-.header-phone:hover,
-.header-phone:focus {
-color: var(--active-color-ocean);
-}
-
-.header-email {}
-
-.header-phone {}
 
 /** -------------------HERO------------------- */
 
