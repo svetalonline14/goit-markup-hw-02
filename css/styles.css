@@ -73,11 +73,12 @@ body {
     color: var(--actent-color-iris);
 
 }
-.header-logo:focus,
+/* .header-logo:focus,
 .header-logo:hover
 {
     color: var(--active-color-ocean);
- }
+ } */
+ 
  /* .header-logo:active */
 .color-logo  {
     color: var(--title-text-color-navy-blue);
